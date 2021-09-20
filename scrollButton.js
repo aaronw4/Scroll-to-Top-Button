@@ -1,19 +1,17 @@
-import React, {useState, useEffect} from 'react';
+import React, {useState} from 'react';
   
 const ScrollButton = () =>{ 
-  const [position, setPosition] = useState(false)
+  const [visible, setVisible] = useState(false)
 
-  useEffect(() => {
-    window.addEventListener("scroll", onScroll)
+  window.addEventListener("scroll", onScroll)
 
-    function onScroll() {
-        if (window.scrollY > 300) {
-            setPosition(true)
-        } else if (window.scrollY < 300) {
-            setPosition(false)
-        }
-    }
-  })
+  function onScroll() {
+      if (window.scrollY > 300) {
+          setVisible(true)
+      } else if (window.scrollY < 300) {
+          setVisible(false)
+      }
+  }
 
   const scrollToTop = () =>{
     window.scrollTo({
@@ -23,7 +21,7 @@ const ScrollButton = () =>{
   }
     
   return (
-    position === true ? 
+    visible === true ? 
     <button class='topButton' onClick={scrollToTop}>
       &#10142;
     </button>
