@@ -2,7 +2,9 @@ import React from "react";
 
 function Content() {
     return (
-        <div></div>
+        <div class='content'>
+            <p>There's nothing here!</p>
+        </div>
     )
 }
 
