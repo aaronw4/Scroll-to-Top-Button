@@ -1,4 +1,5 @@
 import React from "react";
+import './App.css';
 import Banner from "./components/Banner";
 import Content from "./components/Content";
 import ScrollButton from "./components/scrollButton";
