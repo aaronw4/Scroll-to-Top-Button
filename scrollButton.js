@@ -14,14 +14,11 @@ const ScrollButton = () =>{
   }
 
   function scrollToTop() {
-    window.scrollTo({
-      top: 0, 
-      behavior: 'smooth'
-    })
+    window.scrollTo({top: 0, behavior: 'smooth'})
   }
     
   return (
-    visible === true ? 
+    visible ? 
     <button class='topButton' onClick={scrollToTop}>
       &#10142;
     </button>
