@@ -5,7 +5,7 @@
 #### Description
 The file scrollButton.js is a React component that can be imported into a React App. This is a functional component that uses the useState hook.
 <br>
- 
+
 #### Adjusting the Component
 * **When the scroll button appears** is determined in lines 9 and 11. The higher the number then the farther down the page the user must scroll before the button appears.
 * **How it scrolls** is determined in line 17. The behavior can be switched to 'auto' if you prefer an instant return to the top of the page.
