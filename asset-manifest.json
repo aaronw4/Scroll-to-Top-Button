@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Scroll-to-Top-Button/static/css/main.8066a4bb.chunk.css",
+    "main.js": "/Scroll-to-Top-Button/static/js/main.5700d389.chunk.js",
+    "main.js.map": "/Scroll-to-Top-Button/static/js/main.5700d389.chunk.js.map",
+    "runtime-main.js": "/Scroll-to-Top-Button/static/js/runtime-main.8a67f9b9.js",
+    "runtime-main.js.map": "/Scroll-to-Top-Button/static/js/runtime-main.8a67f9b9.js.map",
+    "static/js/2.eaea3405.chunk.js": "/Scroll-to-Top-Button/static/js/2.eaea3405.chunk.js",
+    "static/js/2.eaea3405.chunk.js.map": "/Scroll-to-Top-Button/static/js/2.eaea3405.chunk.js.map",
+    "index.html": "/Scroll-to-Top-Button/index.html",
+    "static/css/main.8066a4bb.chunk.css.map": "/Scroll-to-Top-Button/static/css/main.8066a4bb.chunk.css.map",
+    "static/js/2.eaea3405.chunk.js.LICENSE.txt": "/Scroll-to-Top-Button/static/js/2.eaea3405.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8a67f9b9.js",
+    "static/js/2.eaea3405.chunk.js",
+    "static/css/main.8066a4bb.chunk.css",
+    "static/js/main.5700d389.chunk.js"
+  ]
+}
