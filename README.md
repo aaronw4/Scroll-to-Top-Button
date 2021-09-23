@@ -14,3 +14,6 @@ The file scrollButton.css provides some CSS which can be adjusted.
 
 ## Example
 An example of how to use it can be found in the src folder. App.js inside of src folder demonstrates how the component can be imported. Typing 'yarn start' in the terminal will run this simple app in your browser as a demonstration.
+
+## Deployment
+https://aaronw4.github.io/Scroll-to-Top-Button/
